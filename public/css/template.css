@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: inherit;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 6px;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+header li {
+  float: right;
+}
+
+header li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(245, 245, 245);
+}
+
+tr {
+  text-align: center;
+  font-size: 15px;
+}
+
+td {
+  text-align: center;
+  padding: 5px 25px;
+}
+
+img {
+  float: right;
+  height: 18.2vh;
+  margin-top: -129px;
+}
+
+table tr td a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+table tr td a:hover {
+  color: #333;
+}
+
+hr {
+  display: block;
+  margin-top: 3px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 3px;
+}
+
+h6 {
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.social {
+  float: right;
+  color: black;
+}
+
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+.imgtext {
+  
+  color: white;
+  margin-left: -450px;
+  margin-right: 30px;
+  margin-top: -700px;
+}
+.imgtext h6{
+  font-size: 80px;
+}

@@ -1,0 +1,160 @@
+body {
+  background-color: #E5E4E4;
+}
+
+.count {
+  margin-top: 10px;
+  margin-left: 180px;
+  border: 2px solid blue;
+  border-radius: 8px;
+  width: 200px;
+  height: 35px;
+  text-align: center;
+}
+
+.count a {
+  color: black;
+  font-size: 30px;
+}
+
+.box {
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 175px;
+  width: 250px;
+  height: 100px;
+  background-color: white;
+}
+
+.box a {
+  font-size: 20px;
+  margin-left: 20px;
+  color: gray;
+}
+
+.boxdata {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-left: 215px;
+  color: blue;
+}
+
+.box1 {
+  border-radius: 5px;
+  margin-top: -100px;
+  margin-left: 475px;
+  width: 250px;
+  height: 100px;
+  background-color: white;
+}
+
+.box1 a {
+  font-size: 20px;
+  margin-left: 20px;
+  color: gray;
+}
+
+.box2 {
+  border-radius: 5px;
+  margin-top: -100px;
+  margin-left: 775px;
+  width: 250px;
+  height: 100px;
+  background-color: white;
+}
+
+.box2 a {
+  font-size: 20px;
+  margin-left: 20px;
+  color: gray;
+}
+
+.box3 {
+  border-radius: 5px;
+  margin-top: -100px;
+  margin-left: 1075px;
+  width: 250px;
+  height: 100px;
+  background-color: white;
+}
+
+.box3 a {
+  font-size: 20px;
+  margin-left: 20px;
+  color: gray;
+}
+
+h1 {
+  font-size: 30px;
+  margin-left: 180px;
+}
+
+.rbox {
+  background-color: white;
+  border: 2px solid green;
+  border-radius: 9px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 175px;
+  width: 250px;
+  height: 100px;
+}
+
+.rbox a {
+  font-size: 25px;
+  color: black;
+}
+
+.rbox1 {
+  background-color: white;
+  border: 2px solid blue;
+  border-radius: 9px;
+  padding: 10px;
+  margin-top: -124px;
+  margin-left: 520px;
+  width: 250px;
+  height: 100px;
+}
+
+.rbox1 a {
+  font-size: 25px;
+  color: black;
+}
+
+.rbox2 {
+  background-color: white;
+  border: 2px solid yellow;
+  border-radius: 9px;
+  padding: 10px;
+  margin-top: -124px;
+  margin-left: 950px;
+  width: 250px;
+  height: 100px;
+}
+
+.rbox2 a {
+  font-size: 25px;
+  color: black;
+}
+
+.rboxdata {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 215px;
+  background-color: white;
+}
+
+.description {
+  margin-top: 50px;
+  margin-left: 180px;
+  border: 2px solid purple;
+  border-radius: 8px;
+  width: 350px;
+  height: 35px;
+  text-align: center;
+}
+
+.description a {
+  color: black;
+  font-size: 30px;
+}

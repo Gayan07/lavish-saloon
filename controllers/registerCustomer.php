@@ -26,3 +26,4 @@ require '../Admin/controllers/db.php';
 // }else{
 //     echo "Access Denied !!";
 // }
+?>

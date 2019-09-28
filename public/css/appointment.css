@@ -1,0 +1,98 @@
+body{
+    background-image: url("../images/11.jpg");  
+}
+
+.form {
+    background-color: black;
+    border-radius: 20px;
+    height: 580px;
+    width: 950px;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-left: 50px;
+    margin-left: 40px;
+    margin-bottom: 120px;
+    background-color: wheat;
+}
+
+.form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.form h5 {
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 60px;
+}
+
+.form h4 {
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 120px;
+}
+
+input {
+
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-bottom: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+button {
+    background-color: rgb(121, 193, 252);
+    border: none;
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 400px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+input[type=date] {
+    margin-left: 97px;
+    margin-bottom: 20px;
+    padding: 2px 5px;
+    }
+
+input[type=time] {
+    margin-left: 98px;
+    margin-bottom: 20px;
+    padding: 2px 5px;
+    }
+
+input[type=radio] {
+    margin-left: 10px;
+    margin-bottom: 20px;
+ }
+ 
+ input[type=radio]{
+     margin-left: 90px;
+     margin-bottom: 20px; 
+}	
+input[type=name] {
+    margin-left: 60px;
+    margin-bottom: 20px;
+    padding: 2px 5px;
+    }
+
+input[type=email] {
+        margin-left: 90px;
+        margin-bottom: 20px;
+        padding: 2px 5px;
+        }
+    
+input[type=text] {
+        margin-left: 54px;
+        margin-bottom: 20px;
+        padding: 2px 5px;
+}
+
+     

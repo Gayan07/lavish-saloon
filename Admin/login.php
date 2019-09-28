@@ -19,7 +19,7 @@
 <?php require '../includes/header.php'; ?>
 
   <?php
-  require "includes/navigation.php";
+  require "../Admin/includes/navigation.php";
   ?>
   
     <center>

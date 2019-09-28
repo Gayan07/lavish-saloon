@@ -6,7 +6,7 @@
     <title>LAVISH</title>
     <script src="public/js/adminbarchart.js"></script>
     <link rel="stylesheet" type="text/css" href="../public/css/template.css">
-    <link rel="stylesheet" type="text/css" href="../public/css/admindashboard.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/index.css">
     <link rel="stylesheet" type="text/css" href="../public/css/admin.css">
     <link rel="icon" type="image/png" href="../public/images/icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,10 +15,10 @@
 
 <body >
 
-    <?php require 'includes/header.php'; ?>
+    <?php require '../Admin/includes/header.php'; ?>
 
     <?php
-    require "includes/navigation.php";
+    require "../Admin/includes/navigation.php";
     ?>
 
 

@@ -44,7 +44,7 @@
             <thead>
 
             <tbody>
-                <?php require 'functions/getEmployees.php' ?>
+                <?php require '../Admin/controllers/employee/getEmployees.php' ?>
             </tbody>
     </table>
 

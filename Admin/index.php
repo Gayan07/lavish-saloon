@@ -25,7 +25,7 @@
     <div>
         <div class="box">
             <br>
-            <a>Number of Customers<br></a>
+            <a>Number of Customers<br><?php require '../controllers/customercount.php' ?></a>
             <div class="boxdata"></div>
 
 

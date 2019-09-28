@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'db.php';
+require '../Admin/controllers/db.php';
 
 if (isset($_POST['email']) && isset($_POST['psw'])) {
 

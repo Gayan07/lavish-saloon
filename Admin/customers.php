@@ -40,36 +40,11 @@
             <th></th>
             <th></th>
 
-            
+            <tbody>
+                <?php require '../Admin/controllers/customer/getCustomer.php' ?>
+            </tbody>
         </tr>
         
-        <tr>
-            <td>Jill</td>
-            <td>Smith</td>
-            <td>50</td>
-            <td>50</td>
-            <td>50</td>
-            <td><button class="viewbutton"><i class="fa fa-spinner" style="font-size:16px"></i>  View</button></td>
-            <td><button class="deletebutton"><i class="fa fa-trash-o" style="font-size:16px"></i>  Delete</button></td>
-        </tr>
-        <tr>
-            <td>Eve</td>
-            <td>Jackson</td>
-            <td>50</td>
-            <td>50</td>
-            <td>50</td>
-            <td><button class="viewbutton"><i class="fa fa-spinner" style="font-size:16px"></i>  View</button></td>
-            <td><button class="deletebutton"><i class="fa fa-trash-o" style="font-size:16px"></i>  Delete</button></td>
-        </tr>
-        <tr>
-            <td>John</td>
-            <td>Doe</td>
-            <td>50</td>
-            <td>50</td>
-            <td>50</td>
-            <td><button class="viewbutton"><i class="fa fa-spinner" style="font-size:16px"></i>  View</button></td>
-            <td><button class="deletebutton"><i class="fa fa-trash-o" style="font-size:16px"></i>  Delete</button></td>
-        </tr>
     </table>
 
 

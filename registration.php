@@ -14,8 +14,9 @@
 <body id="container" class="background">
     <?php
     require "includes/header.php";
-    ?>
 
+    ?>
+    
     <div class="example1">
     </div>
 
@@ -29,7 +30,7 @@
             <input type="text" required placeholder="First Name" name="firstName"><br>
 
 
-            <input type="text" required placeholder="Last Name" name="lastName" ><br>
+            <input type="text" required placeholder="Last Name" name="lastName"><br>
 
 
             <input type="text" required placeholder="Email" name="email"><br>
@@ -37,14 +38,13 @@
 
             <input type="number" required placeholder="Contact Number" name="number"><br>
 
-            <input type="radio" name="radio" value="male"><label>Male</label><input type="radio" name="radio" value="female"><label>Female</label><br><br>
-
-
+            <input type="radio" name="gender" value="male"><label>Male</label><input type="radio" name="gender" value="female"><label>Female</label><br><br>
 
             <input type="password" required placeholder="Password" name="psw"><br>
 
-
             <input type="password" required placeholder="Re-Password" name="psw-repeat"><br>
+            
+            
 
             <h5>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</h5>
 

@@ -15,13 +15,19 @@
 
         <!-- Employee Record -->
         <tr>
+        <td><?php echo $row["id"] ?></td>
             <td><?php echo $row["first_name"] ?></td>
             <td><?php echo $row["last_name"] ?></td>
             <td><?php echo $row["email"] ?></td>
             <td><?php echo $row["contact"] ?></td>     
             <td><?php echo $row["gender"] ?></td>
-            <td><button class="viewbutton"><i class="fa fa-spinner" style="font-size:16px"></i>  View</button></td>
-            <td><button class="deletebutton"><i class="fa fa-trash-o" style="font-size:16px"></i>  Delete</button></td>
+            <td><a href="staff-profile.php?aid=<?php echo $row["id"] ?>" class="viewbutton"><i class="fa fa-spinner" style="font-size:16px"></i>  View</button></td>
+            <td>
+            <form action="controllers/employee/updateEmployee.php" method="POST"> 
+                <input name="id" value="<?php echo $row["id"] ?>" hidden>
+                <button class="deletebutton" name="deactivateBtn"><i class="fa fa-trash-o" style="font-size:16px"></i>  Remove</button>
+            </form>
+            </td>
         </tr>
         <!-- End Employee Record -->
 
@@ -30,7 +36,7 @@
       
     // If result is less than 0
     } else {
-        echo "<tr><td colspan='7'>No Employees</td></tr>";
+        echo "<tr><td colspan='8'>No Employees</td></tr>";
     }
     $conn->close();
 

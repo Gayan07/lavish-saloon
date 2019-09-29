@@ -1,4 +1,5 @@
 <?php
+
 $servername = "localhost";
 $database = "lavish_db";
 $username = "root";

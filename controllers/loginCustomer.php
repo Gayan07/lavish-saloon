@@ -14,6 +14,7 @@ if (isset($_POST['email']) && isset($_POST['psw'])) {
 
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
+            $_SESSION["logged_user_id"] = $row['id'];
             $_SESSION["logged_user_fname"] = $row['first_name'];
             $_SESSION["logged_user_lname"] = $row['last_name'];
             $_SESSION["logged_user_email"] = $row['email'];

@@ -16,21 +16,18 @@
 <body>
 
 
-<?php require '../includes/header.php'; ?>
 
-  <?php
-  require "../Admin/includes/navigation.php";
-  ?>
+  
   
     <center>
       <h2>Admin Login </h2>
       <br>
 
-      <form class="form" action="newLog.php" method="POST">
+      <form class="form" action="controllers/adminlogin.php" method="POST">
 
         <div>
-          <label for="uname"><b>Username</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" value="" required>
+          <label for="uname"><b>Email</b></label>
+          <input type="text" placeholder="Enter Username" name="email" required>
 
           <label for="psw"><b>Password</b></label>
           <input type="password" placeholder="Enter Password" name="psw" required>

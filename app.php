@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 require '../iwt/controllers/db.php';
 
 // Check connection

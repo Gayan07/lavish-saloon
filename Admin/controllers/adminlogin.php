@@ -1,6 +1,6 @@
 <?php
 session_start();
-require '../Admin/controllers/db.php';
+require 'db.php';
 
 if (isset($_POST['email']) && isset($_POST['psw'])) {
 
@@ -22,7 +22,7 @@ if (isset($_POST['email']) && isset($_POST['psw'])) {
             $_SESSION["logged_user_gender"] = $row['gender'];
         }
         echo "done";
-        header('Location: ../admin/index.php');
+        header('Location: ../index.php');
     } else {
         header('Location: ../login.php');
     }

@@ -15,7 +15,7 @@ body{
     padding-left: 100px;
     margin-left: 80px;
     margin-bottom: 120px;
-    background-color: rgb(161, 132, 132);
+    background-color: rgb(224, 194, 193);
 }
 
 .form h1 {
@@ -41,7 +41,7 @@ input {
 }
 
 button {
-    background-color: rgb(121, 193, 252);
+    background-color: rgb(194, 94, 70);
     border: none;
     text-align: left;
     padding: 6px 20px 6px 20px;
@@ -89,6 +89,12 @@ input[type=text5] {
 
 input[type=payment] {
     margin-left: 103px;
+    margin-bottom: 20px;
+    padding: 2px 5px;
+}
+
+input[type=text1] {
+    margin-left: 105px;
     margin-bottom: 20px;
     padding: 2px 5px;
 }

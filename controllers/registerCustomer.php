@@ -1,9 +1,7 @@
 <?php
+require '../controllers/db.php';
 
-
-require '../Admin/controllers/db.php';
-
-// if(isset($_POST['email'])){
+//if(isset($_POST['register'])){
 
     // Getting values from POST request
     $firstName = $_POST['firstName'];
@@ -12,18 +10,17 @@ require '../Admin/controllers/db.php';
     $number = $_POST['number'];
     $password = $_POST['psw'];
     $gender = $_POST['gender'];
+    
 
     // Inserting into database
-    $sql = "INSERT INTO users(first_name, last_name, email, contact, password, gender) VALUES  ('$firstName', '$lastName', '$email', $number, '$password', '$gender')";
+    $sql = "INSERT INTO users (first_name, last_name, email, contact, _password, gender) VALUES  ('$firstName', '$lastName', '$email', $number, '$password', '$gender')";
 
-    // Checking execution results
     if ($conn->query($sql) === TRUE) {
-        header('Location: ../login.php');
+        header("Location:/iwt/login.php");
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
+    
+    $conn->close();
+    ?>
 
-// }else{
-//     echo "Access Denied !!";
-// }
-?>

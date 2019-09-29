@@ -13,31 +13,24 @@
 </head>
 
 <body>
-<?php
+    <?php
     require "includes/header.php";
     ?>
-    <?php
-    require "includes/navigation.php";
-    ?>
 
-    <div class="profile">
-        <div>
+
+    <div class="all">
+        <div class="profile">
+
             <h1>Staff Profile</h1>
         </div>
 
-       <div class="details">
+        <div>
 
             <?php require '../Admin/controllers/employee/getEmployee.php' ?>
 
         </div>
-
     </div>
 
-    <div>
-        <button type="button" class="editbtn">Add</button>
-        <button type="button" class="editbtn">update</button>
-        <button type="submit" class="deletebtn">delete</button>
-    </div>
 
 
     </div>

@@ -5,14 +5,14 @@ body{
 .form {
     background-color: black;
     border-radius: 20px;
-    height: 580px;
-    width: 950px;
+    height: 570px;
+    width: 890px;
     margin-top: 50px;
     padding-top: 25px;
-    padding-left: 50px;
+    padding-left: 35px;
     margin-left: 40px;
-    margin-bottom: 120px;
-    background-color: wheat;
+    margin-bottom: 100px;
+    background-color: rgb(204, 200, 193);
 }
 
 .form h1 {
@@ -23,14 +23,14 @@ body{
 
 .form h5 {
     text-align: center;
-    margin-right: 200px;
+    margin-right: 160px;
     margin-left: 60px;
 }
 
 .form h4 {
     text-align: center;
     margin-right: 200px;
-    margin-left: 120px;
+    margin-left: 150px;
 }
 
 input {
@@ -45,7 +45,7 @@ input {
 }
 
 button {
-    background-color: rgb(121, 193, 252);
+    background-color: rgb(67, 165, 124);
     border: none;
     text-align: left;
     padding: 10px 20px 10px 20px;
@@ -78,7 +78,7 @@ input[type=radio] {
      margin-bottom: 20px; 
 }	
 input[type=name] {
-    margin-left: 60px;
+    margin-left: 56px;
     margin-bottom: 20px;
     padding: 2px 5px;
     }

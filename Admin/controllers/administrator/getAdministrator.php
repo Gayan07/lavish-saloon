@@ -1,5 +1,6 @@
 <?php
 
+
 if (isset($_GET['aid'])) {
 
     $aid = $_GET['aid'];
@@ -21,20 +22,24 @@ if (isset($_GET['aid'])) {
 
             <form action="controllers/administrator/updateAdministrator.php" method="POST">
                 <input type="text" name="id" value="<?php echo $row["id"] ?>" hidden>
-
-                First name: <input type="text" name="firstName" value="<?php echo $row["first_name"] ?>"><br>
-                Last name: <input type="text" name="lastName" value="<?php echo $row["last_name"] ?>"><br>
-                Email address: <input type="email" name="email" value="<?php echo $row["email"] ?>"><br>
-                Contact Number: <input type="tel" name="number" value="<?php echo $row["contact"] ?>"><br>
+<table>
+    <tr>
+        <th></th>
+        <th></th>
+    </tr>
+                <tr><td>First name:</td> <td> <input type="text" name="firstName" value="<?php echo $row["first_name"] ?>"></td></tr><br>
+                <tr><td>Last name: </td> <td> <input type="text" name="lastName" value="<?php echo $row["last_name"] ?>"></td></tr><br>
+                <tr><td>Email address:</td> <td>  <input type="email" name="email" value="<?php echo $row["email"] ?>"></td></tr><br>
+                <tr><td>Contact Number: </td> <td> <input type="tel" name="number" value="<?php echo $row["contact"] ?>"></td></tr><br>
                 
                 <?php
                     if($row["gender"] == "male"){
                 ?>
-                    Gender : <input type="radio" name="gender" value="male" checked><label>Male</label><input type="radio" name="gender" value="female"><label>Female</label><br>
+                    <tr><td>Gender : </td> <td><input type="radio" name="gender" value="male" checked><label>Male</label><input type="radio" name="gender" value="female"><label>Female</label></td></tr><br>
                 <?php
                     }else{
                 ?>
-                    Gender : <input type="radio" name="gender" value="male"><label>Male</label><input type="radio" name="gender" value="female" checked><label>Female</label><br>
+                   <tr><td> Gender : </td> <td><input type="radio" name="gender" value="male"><label>Male</label><input type="radio" name="gender" value="female" checked><label>Female</label></td></tr><br>
                 <?php
                     }
                 ?>
@@ -43,25 +48,26 @@ if (isset($_GET['aid'])) {
                 <?php
                     if($row["role"] == "admin"){
                 ?>
-                    Role : <select name="role"><option value="admin" selected>Administrator</option><option value="staff">Employee</option><option value="customer">Customer</option></select><br>
+                   <tr><td> Role : </td> <td><select name="role"><option value="admin" selected>Administrator</option><option value="staff">Employee</option><option value="customer">Customer</option></select></td></tr><br>
                 <?php
                     }else if($row["role"] == "staff"){
                 ?>
-                   Role : <select name="role"><option value="admin">Administrator</option><option value="staff" selected>Employee</option><option value="customer">Customer</option></select><br>
+                   <tr><td>Role : </td> <td><select name="role"><option value="admin">Administrator</option><option value="staff" selected>Employee</option><option value="customer">Customer</option></select></td></tr><br>
                 <?php
                     }else{
                 ?>
-                    Role : <select name="role"><option value="admin">Administrator</option><option value="staff">Employee</option><option value="customer" selected>Customer</option></select><br>
+                   <tr><td> Role : </td> <td><select name="role"><option value="admin">Administrator</option><option value="staff">Employee</option><option value="customer" selected>Customer</option></select></td></tr><br>
                 <?php
                     }
                 ?>
 
 
 
-                Password: <input type="password" name="psw"><br>
+<tr><td>Password: </td> <td><input type="password" name="psw"></td></tr><br>
+    </table>
                 <div>
-                    <button type="submit" class="editbtn" name="updateBtn">Update</button>
-                    <button type="submit" class="deletebtn" name="deactivateBtn">Deactivate</button>
+                    <button type="submit" class="button" name="updateBtn">Update</button>
+                    <button type="submit" class="button button1" name="deactivateBtn">Deactivate</button>
                 </div>
 
             </form>

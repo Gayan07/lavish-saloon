@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'db.php';
+require '../Admin/controllers/db.php';
 
 if (isset($_POST['email']) && isset($_POST['psw'])) {
 
@@ -9,18 +9,20 @@ if (isset($_POST['email']) && isset($_POST['psw'])) {
     $password = $_POST['psw'];
 
     // Reading data from database
-    $sql = "SELECT * FROM users WHERE email = '$email' AND password = '$password'";
+    $sql = "SELECT * FROM users WHERE email = '$email' AND password = '$password' AND role='admin'";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
+            $_SESSION["logged_user_id"] = $row['id'];
             $_SESSION["logged_user_fname"] = $row['first_name'];
             $_SESSION["logged_user_lname"] = $row['last_name'];
             $_SESSION["logged_user_email"] = $row['email'];
             $_SESSION["logged_user_number"] = $row['contact_number'];
             $_SESSION["logged_user_gender"] = $row['gender'];
         }
-        header('Location: ../home.php');
+        echo "done";
+        header('Location: ../admin/index.php');
     } else {
         header('Location: ../login.php');
     }

@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LAVISH</title>
-    <link rel="stylesheet" type="text/css" href="../public/css/staffprofile.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/adminprofile.css">
     <link rel="stylesheet" type="text/css" href="../public/css/admindashboard.css">
     <link rel="stylesheet" type="text/css" href="../public/css/template.css">
     <link rel="icon" type="image/png" href="../public/images/icon.png">
@@ -16,23 +16,21 @@
     <?php
     require "includes/header.php";
     ?>
-    <?php
-    require "includes/navigation.php";
-    ?>
 
 
+<div class="all">
     <div class="profile">
-        <div>
-            <h1>Administrator Profile</h1>
-        </div>
+        <h1>Administrator Profile</h1>
+    </div>
 
-        <div class="details">
 
-            <?php require 'controllers/administrator/getAdministrator.php' ?>
+    
+    <div >
 
-        </div>
+        <?php require 'controllers/administrator/getAdministrator.php' ?>
 
     </div>
+<div>
 </body>
 
 

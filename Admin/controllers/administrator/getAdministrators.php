@@ -1,5 +1,7 @@
 <?php
 
+
+
     // Retrieve query
     $sql = "SELECT id, first_name, last_name, contact, gender, email FROM users WHERE role='admin'";
 

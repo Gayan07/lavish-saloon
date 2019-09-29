@@ -10,5 +10,5 @@
 
     <a href="bookings.php">Bookings</a>
 
-    <a href="profile.php"> Settings</a>
+    
 </div>

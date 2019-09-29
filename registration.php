@@ -11,30 +11,25 @@
 
 </head>
 
-<body id="container" class="background">
+<body>
     <?php
     require "includes/header.php";
 
     ?>
-    
+
     <div class="example1">
     </div>
 
-    <form class="form" action="controllers/registerCustomer.php" method="POST">
+    <form class="form" method="POST" action="controllers/registerCustomer.php">
         <div>
             <h1>Register</h1>
             <h5>Please fill in this form to create an account.</h5>
 
-
-
             <input type="text" required placeholder="First Name" name="firstName"><br>
-
 
             <input type="text" required placeholder="Last Name" name="lastName"><br>
 
-
             <input type="text" required placeholder="Email" name="email"><br>
-
 
             <input type="number" required placeholder="Contact Number" name="number"><br>
 
@@ -43,12 +38,10 @@
             <input type="password" required placeholder="Password" name="psw"><br>
 
             <input type="password" required placeholder="Re-Password" name="psw-repeat"><br>
-            
-            
 
             <h5>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</h5>
 
-            <button type="submit">Register</button>
+            <button id="button" type="register" name="register">Register</button>
         </div>
 
         <div class="container signin">

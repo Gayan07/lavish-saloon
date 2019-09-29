@@ -38,6 +38,7 @@
                 <th>Lastname</th>
                 <th>Email</th>
                 <th>Contact Number</th>
+                <th>Gender</th>
                 <th></th>
                 <th></th>
             </tr>

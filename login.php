@@ -11,7 +11,7 @@
 
 </head>
 
-<body id="container" class="background">
+<body>
     <?php require 'includes/header.php'; ?>
 
     <div class="example1">
@@ -23,7 +23,7 @@
             <h1>Login</h1>
 
 
-            <input type="text" required placeholder="User Name" name="email"><br>
+            <input type="text" required placeholder="Email Address" name="email"><br>
 
 
             <input type="password" required placeholder="Password" name="psw"><br>
@@ -42,13 +42,13 @@
 
 
         <div class="col">
-            <a href="#" class="fb btn">
+            <a href="www.facebook.com" class="fb btn">
                 <i class="fa fa-facebook fa-fw"></i> Login with Facebook
             </a>
-            <a href="#" class="twitter btn">
+            <a href="www.twitter.com" class="twitter btn">
                 <i class="fa fa-twitter fa-fw"></i> Login with Twitter
             </a>
-            <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+            <a href="www.googleplus.com" class="google btn"><i class="fa fa-google fa-fw">
                 </i> Login with Google+
             </a>
         </div>

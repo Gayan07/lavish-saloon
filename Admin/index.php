@@ -13,7 +13,7 @@
 
 </head>
 
-<body >
+<body>
 
     <?php require '../Admin/includes/header.php'; ?>
 
@@ -45,7 +45,7 @@
         </div>
         <div class="box3">
             <br>
-            <a>Number of Staff<br></a>
+            <a>Number of Staff<br><?php require '../controllers/staffcount.php' ?></a>
             <div class="boxdata"></div>
 
         </div>
@@ -73,11 +73,11 @@
 
         </div>
     </div>
- 
 
 
 
-    
+
+
 
 
 </body>

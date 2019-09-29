@@ -1,22 +1,23 @@
 <?php
+session_start();
 require '../iwt/Admin/controllers/db.php';
 
 // Check connection
 
 
-
-$f_name = $_POST["full_Name"];
-$_email = $_POST["email"];
-$_date = $_POST["date"];
-$_time = $_POST["time"];
-$_style = $_POST["hbfstyles"];
-$_con_num = $_POST["contact_no"];
-$_pay_meth = $_POST["payment_method"];    
 $user_id = $_SESSION["logged_user_id"];
+$firstName = $_SESSION["logged_user_fname"]; 
+$email =$_SESSION["logged_user_email"] ;
+$date = $_POST["date"];
+$time = $_POST["time"];
+$style = $_POST["hbfstyles"];
+$con_num = $_SESSION["logged_user_number"];
+$pay_meth = $_POST["payment_method"];    
+
 
 
 //attempt insert query execution
-$sql = "INSERT INTO app (user_id,full_name,email,app_date,app_time,styles,contact_no,pay_method) VALUE ('$user_id','$f_name','$_email','$_date','$_time','$_style','$_con_num','$_pay_meth')";
+$sql = "INSERT INTO app (id,first_name,email,app_date,app_time,styles,contact_no,pay_method) VALUE ('$user_id','$firstName','$email','$date','$time','$style','$con_num','$pay_meth')";
 
 if (mysqli_query($conn, $sql)) {
     

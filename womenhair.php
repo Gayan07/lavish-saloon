@@ -20,51 +20,30 @@
         </div>
         <div class="items">
 
-            <div class="item-card">
-                <img class="image1" src="public/images/LHC.jpg" alt="beard12" style="width:100%">
-                <h1>Long-layer cut</h1>
-                <p class="price">RS.350.00</p>
-                <p><button>Add to Cart</button></p>
-            </div>
-
-            <div class="item-card">
-                <img class="image1" src="public/images/DO1.jpg" alt="beard12" style="width:100%">
-                <h1>Pixie cut</h1>
-                <p class="price">RS.350.00</p>
-                <p><button>Add to Cart</button></p>
-            </div>
-
-            <div class="item-card">
-                <img class="image1" src="public/images/BC1.jpg" alt="beard12" style="width:100%">
-                <h1>Bob cut</h1>
-                <p class="price">RS.350.00</p>
-                <p><button>Add to Cart</button></p>
-            </div>
-        </div>
-
+        <form action="payment.php" method='POST'>
         <div class="items">
 
-            <div class="item-card">
-                <img class="image2" src="public/images/PT1.jpg" alt="beard12" style="width:100%">
-                <h1>Pony-tail</h1>
-                <p class="price">RS.350.00</p>
-                <p><button>Add to Cart</button></p>
-            </div>
-
-            <div class="item-card">
-                <img class="image2" src="public/images/SLC.jpg" alt="beard12" style="width:100%">
-                <h1>Short-layer cut</h1>
-                <p class="price">RS.350.00</p>
-                <p><button>Add to Cart</button></p>
-            </div>
-
-            <div class="item-card">
-                <img class="image2" src="public/images/shag.jpg" alt="beard12" style="width:100%">
-                <h1>Shag cut</h1>
-                <p class="price">RS.350.00</p>
-                <p><button>Add to Cart</button></p>
-            </div>
+            <?php require '../iwt/addcartwomenhair.php' ?>
         </div>
+        <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </form>
 
         <?php require 'includes/footer.php'; ?>
         

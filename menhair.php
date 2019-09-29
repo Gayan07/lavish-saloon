@@ -19,53 +19,32 @@
             <div class="banner-image">
             </div>
         </div>
+        <form action="payment.php" method='POST'>
         <div class="items">
 
-            <div class="item-card">
-                <img class="image1" src="public/images/ssp.jpg" alt="beard12" style="width:100%">
-                <h1>Buzz cut</h1>
-                <p class="price">RS.350.00</p>
-                <p><button>Add to Cart</button></p>
-            </div>
-
-            <div class="item-card">
-                <img class="image1" src="public/images/qw5.jpg" alt="beard12" style="width:100%">
-                <h1>Pompadour</h1>
-                <p class="price">RS.450.00</p>
-                <p><button>Add to Cart</button></p>
-            </div>
-
-            <div class="item-card">
-                <img class="image1" src="public/images/qw3.jpg" alt="beard12" style="width:100%">
-                <h1>Quiff</h1>
-                <p class="price">RS.300.00</p>
-                <p><button>Add to Cart</button></p>
-            </div>
+            <?php require '../iwt/addcartmenhair.php' ?>
         </div>
 
-        <div class="items">
-
-            <div class="item-card">
-                <img class="image2" src="public/images/qw4.jpg" alt="beard12" style="width:100%">
-                <h1>Undercut</h1>
-                <p class="price">RS.260.00</p>
-                <p><button>Add to Cart</button></p>
-            </div>
-
-            <div class="item-card">
-                <img class="image2" src="public/images/qw2.jpg" alt="beard12" style="width:100%">
-                <h1>High Fade Curly</h1>
-                <p class="price">RS.250.00</p>
-                <p><button>Add to Cart</button></p>
-            </div>
-
-            <div class="item-card">
-                <img class="image2" src="public/images/qw1.jpg" alt="beard12" style="width:100%">
-                <h1>Wavy Hair</h1>
-                <p class="price">RS.200.00</p>
-                <p><button>Add to Cart</button></p>
-            </div>
-        </div>
+    </form>
+   
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
 
         <?php require 'includes/footer.php'; ?>
         

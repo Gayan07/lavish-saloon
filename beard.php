@@ -27,11 +27,30 @@
     <form action="payment.php" method='POST'>
         <div class="items">
 
-            <?php require '../iwt/addcartdb.php' ?>
+            <?php require '../iwt/addcartbeard.php' ?>
         </div>
 
     </form>
-    <?php require '../iwt/includes/footer.php'; ?>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <?php require '../iwt/includes/footer.php';?>
 </body>
+
 
 </html>

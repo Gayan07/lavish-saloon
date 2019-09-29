@@ -23,7 +23,7 @@
 
            
             <label>Full Name:</label>
-            <input type="name" required placeholder="Full Name" name="full_Name"><br>
+            <input type="name" required placeholder="Full Name" name="firstName"><br>
 
             <label>Email:</label>
             <input type="email" required placeholder="Email" name="email"><br>

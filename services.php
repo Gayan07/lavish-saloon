@@ -72,15 +72,15 @@
     </div>
     <div class="classes">
         <div class="box">
-            <button><a href="hair.php"class="btn">Men Style<img src="public/images/3.jpg" alt="Snow"></a></button>
+            <button><a href="menhair.php"class="btn">Men Style<img src="public/images/3.jpg" alt="Snow"></a></button>
         </div>
 
         <div class="box">
-            <button><a href="whair.php"class="btn">Women Style<img src="public/images/5.jpg" alt="Snow"></a></button>
+            <button><a href="womenhair.php"class="btn">Women Style<img src="public/images/5.jpg" alt="Snow"></a></button>
         </div>
 
         <div class="box">
-            <button><a href="beard1.php"class="btn">Beard<img src="public/images/7.jpg" alt="Snow"></a></button>
+            <button><a href="beard.php"class="btn">Beard<img src="public/images/7.jpg" alt="Snow"></a></button>
         </div>
 
         <div class="box">

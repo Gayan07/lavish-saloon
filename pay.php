@@ -1,18 +1,8 @@
 <?php
-$servername = "localhost";
-$database = "payment";
-$username = "root";
-$password = "";
-
-// Create connection
-
-$conn = mysqli_connect($servername, $username, $password, $database);
-
+require '../iwt/Admin/controllers/db.php';
 // Check connection
 
-if (!$conn) {
-      die("Connection failed: " . mysqli_connect_error());
-}
+
 
 $pay_pr = $_POST["payment_price"];
 $c_type = $_POST["Card_Type"];

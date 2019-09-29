@@ -19,29 +19,27 @@
             <div class="banner-image">
             </div>
         </div>
+        <br>
+        <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        <form action="payment.php" method='POST'>
         <div class="items">
 
-            <div class="item-card" >
-                <img class="image" src="public/images/RE1.jpg" alt="beard12" style="width:100%">
-                <h1>Regular facial</h1>
-                <p class="price">RS.350.00</p>
-                <p><button>Add to Cart</button></p>
-            </div>
-
-            <div class="item-card">
-                <img class="image" src="public/images/basic.jpg" alt="beard12" style="width:100%">
-                <h1>Basic clean up</h1>
-                <p class="price">RS.350.00</p>
-                <p><button>Add to Cart</button></p>
-            </div>
-
-            <div class="item-card">
-                <img class="image" src="public/images/FF1.jpg" alt="beard12" style="width:100%" style="height:100%">
-                <h1>Fruit Facial </h1>
-                <p class="price">RS.350.00</p>
-                <p><button>Add to Cart</button></p>
-            </div>
+            <?php require '../iwt/addcartfacial.php' ?>
         </div>
+
+    </form>
+   
+ 
 
 
         <?php require 'includes/footer.php'; ?>

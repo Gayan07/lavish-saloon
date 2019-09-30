@@ -18,16 +18,16 @@ if ($result->num_rows > 0) {
         ?>
 
         <!-- Administrator Record -->
-
-        <div class="item-card">
-            <img class="image1" src="<?php echo $row["image"] ?>" alt="beard12" style="width:100%">
-            <h1><?php echo $row["style"] ?></h1>
-            <p class="price"><?php echo $row["price"] ?></p>
-            <input type="text" name="style" value="<?php echo $row["style"] ?>" hidden>
-            <input type="text" name="price" value="<?php echo $row["price"] ?>" hidden>
-            <p><button type="submit" name="add-to-cart">Add to Cart</button></p>
-        </div>
-
+        <form action="payment.php" method='POST'>
+            <div class="item-card">
+                <img class="image1" src="<?php echo $row["image"] ?>" alt="beard12" style="width:100%">
+                <h1><?php echo $row["style"] ?></h1>
+                <p class="price"><?php echo $row["price"] ?></p>
+                <input type="text" name="style" value="<?php echo $row["style"] ?>" hidden>
+                <input type="text" name="price" value="<?php echo $row["price"] ?>" hidden>
+                <p><button type="submit" name="add-to-cart">Add to Cart</button></p>
+            </div>
+        </form>
 
         <!-- End Administrator Record -->
 

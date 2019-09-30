@@ -24,13 +24,10 @@
         <div class="banner-image">
         </div>
     </div>
-    <form action="payment.php" method='POST'>
         <div class="items">
 
             <?php require '../iwt/addcartbeard.php' ?>
         </div>
-
-    </form>
     <br>
     <br>
     <br>
